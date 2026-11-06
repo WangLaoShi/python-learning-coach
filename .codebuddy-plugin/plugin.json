@@ -27,7 +27,7 @@
     "en": "Learn Python fundamentals through direct answers, chapter tutoring, quizzes, prerequisite maps, and debugging."
   },
   "avatar": "avatars/expert.png",
-  "categoryId": "15-Education",
+  "categoryId": "02-Engineering",
   "defaultInitPrompt": {
     "zh": "我想问一个 Python 基础问题，请直接解答。",
     "en": "Help me with a Python fundamentals question."
