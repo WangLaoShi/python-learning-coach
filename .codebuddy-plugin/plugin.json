@@ -1,0 +1,64 @@
+{
+  "name": "python-learning-coach",
+  "version": "0.1.0",
+  "description": "Python foundations coach with direct Q&A and opt-in chapter tutoring.",
+  "author": {
+    "name": "Python Course",
+    "email": "wangjianxu@aliyun.com"
+  },
+  "agents": [
+    "./agents/python-learning-coach.md"
+  ],
+  "skills": [
+    "./skills/python-learning"
+  ],
+  "expertType": "agent",
+  "agentName": "python-learning-coach",
+  "displayName": {
+    "zh": "Python 学习教练",
+    "en": "Python Learning Coach"
+  },
+  "profession": {
+    "zh": "Python 基础学习与排错导师",
+    "en": "Python Foundations Tutor"
+  },
+  "displayDescription": {
+    "zh": "帮助学生理解基础概念、掌握必备知识，支持章节带学、知识路径、小测验与运行排错，默认随问随答。",
+    "en": "Learn Python fundamentals through direct answers, chapter tutoring, quizzes, prerequisite maps, and debugging."
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "15-Education",
+  "defaultInitPrompt": {
+    "zh": "我想问一个 Python 基础问题，请直接解答。",
+    "en": "Help me with a Python fundamentals question."
+  },
+  "plugin": "python-learning-coach",
+  "tags": [
+    {
+      "zh": "Python 基础",
+      "en": "Python Basics"
+    },
+    {
+      "zh": "章节带学",
+      "en": "Guided Learning"
+    },
+    {
+      "zh": "代码排错",
+      "en": "Debugging"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我想问一个 Python 基础问题，请直接解答。",
+      "en": "Help me with a Python fundamentals question."
+    },
+    {
+      "zh": "带我学习第 7 节：函数。",
+      "en": "Guide me through chapter 7: functions."
+    },
+    {
+      "zh": "帮我定位这段 Python 代码的错误，并说明验证方法。",
+      "en": "Diagnose my Python code and explain how to verify the fix."
+    }
+  ]
+}
